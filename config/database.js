@@ -1,11 +1,13 @@
+//! this is for our sql lite db
+
 module.exports = ({ env }) => ({
-  defaultConnection: 'default',
+  defaultConnection: "default",
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: "bookshelf",
       settings: {
-        client: 'sqlite',
-        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+        client: "sqlite",
+        filename: env("DATABASE_FILENAME", ".tmp/data.db"),
       },
       options: {
         useNullAsDefault: true,
