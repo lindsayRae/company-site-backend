@@ -42,6 +42,18 @@
     },
     "summary": {
       "type": "string"
+    },
+    "imgAuthor": {
+      "type": "string"
+    },
+    "imgAuthorLink": {
+      "type": "string"
+    },
+    "imgSource": {
+      "type": "string"
+    },
+    "imgSourceLink": {
+      "type": "string"
     }
   }
 }
